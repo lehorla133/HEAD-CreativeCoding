@@ -1,0 +1,32 @@
+{
+    "person1": {
+        "name": "Morgan",
+        "age": "33",
+        "location": "Zurich"
+    },
+    "person2": {
+        "name": "Joss",
+        "age": "42",
+        "location": "Geneva"
+    },
+    "person3": {
+        "name": "Stanley",
+        "age": "66",
+        "location": "New York"
+    },
+    "person4": {
+        "name": "Claude",
+        "age": "18",
+        "location": "Paris"
+    },
+    "person5": {
+        "name": "Simon",
+        "age": "29",
+        "location": "Lausanne"
+    },
+    "person6": {
+        "name": "Yann",
+        "age": "22",
+        "location": "Fribourg"
+    }
+}
