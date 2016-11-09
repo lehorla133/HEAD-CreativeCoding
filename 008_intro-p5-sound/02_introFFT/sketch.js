@@ -5,11 +5,10 @@
  INTRODUCTION AMPLITUDE P5 SOUND
  -------------------------------------
  - chargement d'un son audio
- - création d'un bouton play / pause
- - création de deux slider pour le volume et pour la vitesse de lecture
- - analyse de l'amplitude (volume) du son
- - création de cercle réagissant à l'amplitude
- - création d'un graphe correspondant à un historique de l'amplitude
+ - analayse des frequences, stockage dans un tableau
+ - création de rect réagissant au différentes case du tableau (donc au différente frequence)
+ - création de ligne
+ - création de square
  */
 
 var w = window.innerWidth;
