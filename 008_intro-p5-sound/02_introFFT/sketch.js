@@ -10,7 +10,7 @@
  - création de ligne
  - création de square
 
- 
+
  */
 
 var w = window.innerWidth;
