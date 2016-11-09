@@ -9,6 +9,8 @@
  - création de rect réagissant au différentes case du tableau (donc au différente frequence)
  - création de ligne
  - création de square
+
+ 
  */
 
 var w = window.innerWidth;

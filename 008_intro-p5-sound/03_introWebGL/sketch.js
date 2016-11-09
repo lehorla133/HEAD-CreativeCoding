@@ -6,9 +6,7 @@
  -------------------------------------
  - chargement d'un son audio
  - analayse des frequences, stockage dans un tableau
- - création de rect réagissant au différentes case du tableau (donc au différente frequence)
- - création de ligne
- - création de square
+ - création de trois cubes en WEBGL réagissant à différente fréquence (bass, mid, high)
  */
 
 var w = window.innerWidth;
