@@ -52,7 +52,25 @@ function draw() {
         //var map = map(largeurRect, 0, 1024)
         line(largeurRect, spectrum[i], largeurRect + 10, spectrum[i]);
         rect(largeurRect, h, 10, -spectrum[i]);
+        text(i, largeurRect,h-largeurRect+4);
         largeurRect = largeurRect + 10;
+    }
+
+    for (var i = 20; i < 30; i++) {
+        fill(255);
+        rect(200, 200, spectrum[i]+100, spectrum[i]+100);
+
+    }
+
+    for (var i = 60; i < 70; i++) {
+        fill(255);
+        rect(600, 200, spectrum[i]+100, spectrum[i]+100);
+    }
+
+    for (var i = 100; i < 110; i++) {
+        fill(255);
+        rect(900, 200, spectrum[i]+100, spectrum[i]+100);
+
     }
 
 }
