@@ -25,17 +25,17 @@ function drawDataISS(dataISS) {
 function draw() {
     background(255);
 
-    if (spaceData) {
-        for (var i = 0; i < spaceData.number; i++) {
-            var number = spaceData.number;
-            var name = spaceData.people[i].name;
-            var craft = spaceData.people[i].craft
-            text(name, 100, 400 + (i * 50));
-            text(craft, 400, 400 + (i * 50));
-            text(number, 200, 200);
-            ellipse(random(width), random(height), 10, 10);
+        if (spaceData) {
+            for (var i = 0; i < spaceData.number; i++) {
+                var number = spaceData.number;
+                var name = spaceData.people[i].name;
+                var craft = spaceData.people[i].craft
+                text(name, 100, 400 + (i * 50));
+                text(craft, 400, 400 + (i * 50));
+                text(number, 200, 200);
+                ellipse(random(width), random(height), 10, 10);
+            }
         }
-    }
     if (issNow) {
 
         var lat = issNow.iss_position.latitude;

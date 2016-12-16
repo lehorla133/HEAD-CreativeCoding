@@ -49,10 +49,13 @@ function draw() {
 
 
     console.log(spectrum[100]);
+
     for (var i = 0; i < spectrum.length; i++) {
         //var map = map(largeurRect, 0, 1024)
-        line(largeurRect, spectrum[i], largeurRect + 10, spectrum[i]);
-        rect(largeurRect, h, 10, -spectrum[i]);
+       // line(largeurRect, spectrum[i], largeurRect + 10, spectrum[i]);
+        rect(largeurRect, 400, 10, -spectrum[i]);
+
+
         text(i, largeurRect,h-largeurRect+4);
         largeurRect = largeurRect + 10;
     }
